@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  cassandradb: 
+    image: cassandra:3.11.11
+    container_name: cassandra_db
+    ports: 
+      - "9842:9842"
